@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+form{
+    background-color: grey;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    height: 70%;
+    width: 60%;
+    justify-content: space-evenly;
+}
+#rules{
+    font-size: larger;
+    font-weight: 600;
+}
+#guess{
+    height: 10%;
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    font-size: large;
+    font-weight:600 ;
+}
+#submit{
+    height: 9%;
+    width: 12%;
+    border-radius: 10px;
+    border: none;
+    background-color: azure;
+    cursor: pointer;
+    font-weight: 525;
+}
+#newGame{
+    height: 120%;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600
+    ;
+    /* border:  2px solid black; */
+    cursor: pointer
+}

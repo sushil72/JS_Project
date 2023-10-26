@@ -1,0 +1,98 @@
+*{
+    margin: 0;;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+   
+}
+.super{
+    /* border: 3px solid red; */
+    height: 90vh;
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 50px;
+
+}
+.inputArea{
+    /* border: 2px solid green; */
+    padding: 20px;
+    background-color: rgb(147, 144, 144);
+    height: 200px;
+    width: 500px;
+    margin-top: 3rem;
+    color: black;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+
+
+}
+
+.inputArea input{
+    margin-top: 34px;
+    height: 30px;
+    padding: 5px;
+    
+}
+.inputArea span{
+    margin-left: 10px;
+}
+.footer{
+    height: 60px;
+    width: 70%;
+    /* background-color: aquamarine; */
+    margin-top: 30px;
+    /* padding: 10px; */
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-size: large;
+    font-weight: 800;
+    
+}
+.footer #your {
+    /* border: 2px solid black; */
+    display: inline-block;
+    background-color: rgb(165, 161, 161);
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer #bmi{
+    background-color: rgb(169, 104, 230);
+    height: 100%;
+    width: 50%;
+    margin-left: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    
+}
+#btn{
+    /* background-color: red; */
+    
+    width: 10.5%;
+    height: 7%;
+    margin-top: 10px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#dsc{
+    background-color: rgb(77, 148, 77);
+    padding: 10px;
+    text-align: center;
+    width: 46.2%;
+    margin-top: 10px;
+    color: white;
+}
